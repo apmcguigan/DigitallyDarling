@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jimmybutton/gatsby-netlifycms-tailwind-starter
+  repo: apmcguigan/Digitally-Darling
   branch: main
 
 local_backend: true
