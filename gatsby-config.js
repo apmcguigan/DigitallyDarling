@@ -3,7 +3,7 @@ const siteUrl =
 
 module.exports = {
   siteMetadata: {
-    title: "UrbanGarden",
+    title: "Digitally Darling",
     description:
       "Transforming and enriching our urban environments with green living spaces",
     siteUrl: "https://objective-thompson-fe2703.netlify.app",
@@ -72,13 +72,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `UrbanGarden`,
-        short_name: `UrbanGarden`,
+        name: `DigitallyDarling`,
+        short_name: `DigitallyDarling`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#047857`,
         display: `standalone`,
-        icon: `src/img/urbangarden-icon.png`,
+        icon: `src/img/DigitallyDarling-submark-circle.png`,
       },
     },
     "gatsby-transformer-remark-frontmatter",

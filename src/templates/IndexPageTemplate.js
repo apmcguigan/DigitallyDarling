@@ -55,14 +55,14 @@ const IndexPageTemplate = ({
 
       {/* Featured projects */}
       <Container>
-        <div className="flex justify-between items-baseline">
-          <SectionHeading>Our projects from all over the world</SectionHeading>
-          <Link className="text-green-700 underline hover:text-green-800" to="/projects">
-            View all
-          </Link>
-        </div>
-        <div className="mt-8">
-          <CardSet posts={posts} />
+        <div className="text-center">
+          <h2 className="text-2xl font-medium text-gray-800 sm:text-3xl lg:text-4xl">
+          I’m Nina. I help <em>heart-centered entrepreneurs in health and wellness</em> with the backend of their business so they can focus on what's most important:
+          </h2>
+          <h1 className="text-3xl font-medium text-gray-900 sm:text-4xl lg:text-5xl">
+            Test H1 text
+            </h1>
+
         </div>
       </Container>
 
