@@ -1,3 +1,4 @@
+const { purple } = require('tailwindcss/colors')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -6,8 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: colors.emerald,
         lime: colors.lime,
+        beige: '#FDFAF0', 
+        darkGreen: '#095d40',
+        green: '#11a772',
+        purple: '#09d40'
       },
       spacing: {
         '1/2': '50%',
