@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: apmcguigan/Digitally-Darling
+  repo: apmcguigan/DigitallyDarling
   branch: main
 
 local_backend: true
