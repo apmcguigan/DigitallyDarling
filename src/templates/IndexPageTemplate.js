@@ -16,10 +16,10 @@ const IndexPageTemplate = ({
     <div>
       {/* Header */}
       <div className="relative bg-green-700 min-w-full overflow-hidden bg-green text-center pb-12 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24">
-        <h3 className="text-3xl font-bold text-beige sm:text-4xl sm:pt-28 lg:text-5xl">
+        <h3 className="font-bold text-beige sm:pt-28">
           {heading}
         </h3>
-        <h1 className="mt-2 text-beige sm:mt-4 lg:mt-6 lg:text-xl">
+        <h1 className="mt-2 text-beige">
           {subheading}
         </h1>
 
