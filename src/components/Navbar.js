@@ -126,45 +126,52 @@ const Navbar = ({ className }) => {
             </ExactNavLink>
           </div>
 
-          <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center px-2">
+          <div className="flex flex-row w-full md:mx-6 md:my-2 items-center px-2">
+            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
             <StaticImage
               src="../img/DigitallyDarling-submark-circle.png"
               alt="DD Icon"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
-              layout="constrained"
+              layout="fixed"
               width={40}
               height={40}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </div>
 
+            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
             <StaticImage
               src="../img/DigitallyDarling-submark-circle.png"
               alt="DD Icon"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
-              layout="constrained"
+              layout="fixed"
               width={40}
               height={40}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </div>
 
+            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
             <StaticImage
               src="../img/DigitallyDarling-submark-circle.png"
               alt="DD Icon"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
-              layout="constrained"
+              layout="fixed"
               width={40}
               height={40}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </div>
+
           </div>
         </div>
       </div>

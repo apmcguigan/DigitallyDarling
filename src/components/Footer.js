@@ -4,137 +4,98 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100">
-      <div className="max-w-7xl px-4 py-4 mx-auto sm:px-6 lg:px-8">
-        <div className="lg:flex">
-          <div className="w-full -mx-4 sm:-mx-6 lg:-mx-8 lg:w-2/5">
-            <div className="px-4 sm:px-6 lg:px-8">
-              <Link className="flex items-center gap-1" to="/">
-                <StaticImage
-                  src="../img/urbangarden-icon.png"
-                  alt="UrbanGarden icon"
-                  layout="fixed"
-                  width={40}
-                  height={40}
-                  backgroundColor="transparent"
-                  placeholder="blurred"
-                />
-                <div className="text-xl font-bold tracking-wide">
-                  <span className="text-gray-800 font-semibold">Urban</span>
-                  <span className="text-green-700">Garden</span>
+    <footer className="bg-purple text-darkGreen py-6">
+          <div className="flex flex-row w-3/4 lg:w-2/5  m-auto items-center pb-4">
+          <div className="flex justify-center m-auto">
+                <Link
+                  to="/"
+                  className="flex justify-center mx-2"
+                >
+                  Home
+                </Link>
                 </div>
-              </Link>
 
-              <p className="max-w-md mt-2 text-gray-600 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis, nisi! Id.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6 lg:mt-0 lg:flex-1">
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
-              <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
+                <div className="flex justify-center m-auto">
+                <Link
+                  to="/About"
+                  className="flex justify-center mx-2"
+                >
                   About
-                </h3>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Company
                 </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Community
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Careers
-                </Link>
-              </div>
+                </div>
 
-              <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
-                  Blog
-                </h3>
+                <div className="flex justify-center m-auto">
                 <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                  to="/Services"
+                  className="flex justify-center mx-4"
                 >
-                  Tec
+                  Services
                 </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Music
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Videos
-                </Link>
-              </div>
+                </div>
 
-              <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
-                  Products
-                </h3>
-                <a
-                  href="https://www.gatsbyjs.com/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
+                <div className="flex justify-center m-auto">
+                <Link
+                  to="/Contact"
+                  className="flex justify-center mx-2"
                 >
-                  Gatsby
-                </a>
-                <a
-                  href="https://www.netlifycms.org/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Netlify CMS
-                </a>
-                <a
-                  href="https://tailwindcss.com/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>
-              </div>
-
-              <div>
-                <h3 className="text-gray-700 uppercase dark:text-white">
                   Contact
-                </h3>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
-                </span>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  example@email.com
-                </span>
-              </div>
+                </Link>
+                </div>
+
+        </div>
+        
+        <div className="flex flex-row w-1/4 m-auto items-center">
+          <div className="flex justify-center m-auto">
+            <StaticImage
+              src="../img/DigitallyDarling-submark-circle.png"
+              alt="DD Icon"
+              className="flex justify-center m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={40}
+              height={40}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
             </div>
+
+            <div className="flex justify-center m-auto">
+            <StaticImage
+              src="../img/DigitallyDarling-submark-circle.png"
+              alt="DD Icon"
+              className="flex justify-center m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={40}
+              height={40}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
+            </div>
+
+            <div className="flex justify-center m-auto">
+            <StaticImage
+              src="../img/DigitallyDarling-submark-circle.png"
+              alt="DD Icon"
+              className="flex justify-center m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={40}
+              height={40}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
           </div>
         </div>
 
-        <hr className="h-px my-6 bg-gray-300 border-none dark:bg-gray-700" />
-
-        <div>
-          <p className="text-center text-gray-800 dark:text-white">
-            © Brand 2020 - All rights reserved
+        <div className="mt-4">
+          <p className="text-center">
+          Copy Right © 2022 Digitally Darling Creative Services. All Rights Reserved. 
           </p>
         </div>
-      </div>
     </footer>
   )
 }
