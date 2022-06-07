@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <div className="flex flex-col h-screen justify-between">
+      <div className="flex flex-col h-40 justify-between">
         <Navbar
           className={`transition transform duration-300 ease-in-out ${
             scrollDirection === "down" || scrollY < 200

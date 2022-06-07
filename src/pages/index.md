@@ -3,7 +3,7 @@ templateKey: index-page
 title: Digitally Darling
 image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
 heading: Virtual Creative Support for business owners & non-profits
-subheading: "Focus on their base and passions"
+subheading: Focus on their base and passions
 about:
   heading: Who we are
   description: "testing the text here 12 3 4 5 6"
@@ -13,8 +13,4 @@ about:
   button:
     url: /about
     label: Find out more
-part2:
-  heading: Who we are
-  description1: "I help heart-centred entrepreneurs with the creative backend of their business so they can focus on what's most important:"
-  description2: "CLIENT SERVICING, SUSTAINED GROWTH AND THE REASON WHY THEY DO WHAT THEY DO"
 ---

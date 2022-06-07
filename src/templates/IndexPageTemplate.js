@@ -15,7 +15,7 @@ const IndexPageTemplate = ({
   return (
     <div>
       {/* Header */}
-      <div className="relative bg-green-700 min-w-full overflow-hidden bg-green text-center pb-12 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24">
+      <div className="relative min-w-full overflow-hidden bg-green text-center pb-20 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24">
         <h3 className="font-bold text-beige text-xl sm:pt-28">
           {heading}
         </h3>
@@ -37,7 +37,6 @@ const IndexPageTemplate = ({
           <h1 className="text-3xl font-medium text-gray-900 sm:text-4xl lg:text-5xl ">
             Test H1 text
             </h1>
-
         </div>
       </Container>
 

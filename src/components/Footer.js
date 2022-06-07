@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Footer = () => {
   return (
     <footer className="bg-purple text-darkGreen py-6">
-          <div className="flex flex-row w-3/4 lg:w-2/5  m-auto items-center pb-4">
+        <div className="flex flex-row w-3/4 lg:w-2/5  m-auto items-center pb-4">
           <div className="flex justify-center m-auto">
                 <Link
                   to="/"
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="flex flex-row w-1/4 m-auto items-center">
           <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
+              src="../img/Facebook.png"
               alt="DD Icon"
               className="flex justify-center m-2"
               imgClassName="rounded"
@@ -62,7 +62,7 @@ const Footer = () => {
 
             <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
+              src="../img/Instagram.png"
               alt="DD Icon"
               className="flex justify-center m-2"
               imgClassName="rounded"
@@ -77,7 +77,7 @@ const Footer = () => {
 
             <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
+              src="../img/Email.png"
               alt="DD Icon"
               className="flex justify-center m-2"
               imgClassName="rounded"

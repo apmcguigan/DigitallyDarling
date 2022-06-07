@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About
 heading: About us
-subheading: Our values, mission and culture
+subheading: about page subhheading text tester1234
 team:
   - name: Courtney Henry
     image: /img/joanna-nix-walkup-p7zgmc33s0u-unsplash.jpg

@@ -11,6 +11,7 @@ module.exports = {
         beige: '#FDFAF0', 
         darkGreen: '#095d40',
         green: '#11a772',
+        highlightGreen: "#557D70",
         purple: '#b3bbea'
       },
       spacing: {
