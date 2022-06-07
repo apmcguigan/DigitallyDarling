@@ -49,7 +49,7 @@ const Navbar = ({ className }) => {
 
   return (
     <nav
-    className={`fixed top-0 w-full h-34 z-30 pt-8 bg-beige shadow-xl ${className}`}
+    className={`fixed top-0 w-full h-34 z-30 py-2 lg:pt-8 lg:pb-6 bg-beige shadow-xl ${className}`}
     >
       <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between py-2">
