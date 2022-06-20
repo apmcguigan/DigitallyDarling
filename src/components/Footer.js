@@ -47,8 +47,8 @@ const Footer = () => {
         <div className="flex flex-row w-1/4 m-auto items-center">
           <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Facebook.png"
+              alt="Facebook"
               className="flex justify-center m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -62,8 +62,8 @@ const Footer = () => {
 
             <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Instagram.png"
+              alt="Instagram"
               className="flex justify-center m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -77,8 +77,8 @@ const Footer = () => {
 
             <div className="flex justify-center m-auto">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Email.png"
+              alt="Email"
               className="flex justify-center m-2"
               imgClassName="rounded"
               layout="fixed"

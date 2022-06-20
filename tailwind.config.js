@@ -10,6 +10,7 @@ module.exports = {
         lime: colors.lime,
         beige: '#FDFAF0', 
         darkGreen: '#095d40',
+        highlightGreen: '#557D70',
         green: '#11a772',
         purple: '#b3bbea'
       },

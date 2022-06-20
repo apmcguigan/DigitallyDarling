@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const NAVLINK_CLASSES =
-  "my-1 py-3 px-3 text-center font-medium text-xl text-darkGreen hover:text-green-900 md:mx-2 md:my-0"
+  "my-1 py-3 text-center font-medium text-xl text-darkGreen hover:text-green-900 md:mx-2 md:my-0"
 
 // this link will be active when itself or deeper routes
 // are current
@@ -49,7 +49,7 @@ const Navbar = ({ className }) => {
 
   return (
     <nav
-      className={`fixed top-0 w-full h-34 z-30 bg-beige shadow-xl ${className}`}
+      className={`fixed top-0 w-full h-34 z-30 pt-8 bg-beige shadow-xl ${className}`}
     >
       <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between py-2">
@@ -124,13 +124,16 @@ const Navbar = ({ className }) => {
             >
               Contact
             </ExactNavLink>
+
+
+
           </div>
 
-          <div className="flex flex-row w-full md:mx-6 md:my-2 items-center px-2">
-            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
+          <div className="flex flex-row w-full md:my-2 items-center px-4">
+            <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Facebook.png"
+              alt="Facebook"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -142,10 +145,10 @@ const Navbar = ({ className }) => {
             />
             </div>
 
-            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
+            <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Instagram.png"
+              alt="Instagram"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -157,10 +160,10 @@ const Navbar = ({ className }) => {
             />
             </div>
 
-            <div className="flex flex-col w-full md:flex-row md:mx-6 md:my-2 items-center">
+            <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
             <StaticImage
-              src="../img/DigitallyDarling-submark-circle.png"
-              alt="DD Icon"
+              src="../img/DD_Email.png"
+              alt="Email"
               className="w-full h-full sm:w-full sm:h-full m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -171,7 +174,6 @@ const Navbar = ({ className }) => {
               placeholder="blurred"
             />
             </div>
-
           </div>
         </div>
       </div>
