@@ -19,6 +19,10 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         heading={fm.heading}
         subheading={fm.subheading}
+        subhead1={fm.subhead1}
+        subhead2={fm.subhead2}
+        line1={fm.line1}
+        line2={fm.line2}
         image={fm.image}
         posts={posts}
         about={fm.about}
@@ -42,6 +46,10 @@ export const indexPageQuery = graphql`
         }
         heading
         subheading
+        subhead1
+        subhead2
+        line1
+        line2
         about {
           description
           heading
