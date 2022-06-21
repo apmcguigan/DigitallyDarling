@@ -24,7 +24,7 @@ const IndexPageTemplate = ({
           <h3 className="font-bold text-beige text-3xl sm:pt-28">{line1}</h3>
           <h3 className="font-bold text-beige text-3xl py-2">{line2}</h3>
           <h1 className="mt-2 text-beige text-3xl md:text-6xl md:py-2">{subhead1}</h1>
-          <h1 className="mt-2 text-beige text-3xl md:text-6xl md:py-2 pb-6 md:pb-12">{subhead2}</h1>
+          <h1 className="mt-2 text-beige text-3xl md:text-6xl md:py-2 pb-6">{subhead2}</h1>
           <br></br>
             <div className="w-1/3 md:w-1/5 h-8px bg-purple mx-auto"></div>
 
