@@ -20,7 +20,7 @@ const IndexPageTemplate = ({
   return (
     <div>
       {/* Header */}
-      <div className="relative min-w-full h-44rem overflow-hidden bg-green text-center pb-20 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24 items-center">
+      <div className="relative min-w-full h-36rem lg:h-44rem overflow-hidden bg-green text-center pb-8 lg:pb-20 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24 items-center">
         <div className="w-4/5 md:w-1/2 mx-auto">
           <h3 className="font-bold text-beige text-3xl sm:pt-28">{line1}</h3>
           <h3 className="font-bold text-beige text-3xl py-2">{line2}</h3>
@@ -40,7 +40,7 @@ const IndexPageTemplate = ({
       </div>
 
       {/*Pitch Section */}
-      <div className="relative min-w-full h-full overflow-hidden bg-beige text-center pb-20 pt-20 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pb-24 items-center">
+      <div className="relative min-w-full h-full overflow-hidden bg-beige text-center pb-8 lg:pb-20 pt-8 lg:pt-20 z-10 items-center">
         <div className="w-4/5 md:w-3/4 mx-auto text-darkGreen">
           <div className="text-2xl font-medium sm:text-3xl">
             I help heart-centered entrepreneurs in health and wellness with the
@@ -48,14 +48,14 @@ const IndexPageTemplate = ({
             important:
           </div>
             <br></br>
-          <div className="text-4xl font-medium mx-12">
+          <div className="text-3xl font-medium mx-2 lg:mx-12 lg:text-4xl">
             CLIENT SERVICING, SUSTAINED GROWTH AND THE REASON THEY DO WHAT THEY
             DO
           </div>
             <br></br>
           <div className="w-1/3 md:w-1/5 h-8px bg-purple mx-auto"></div>
             <br></br>
-          <div className="text-left text-5xl font-bold">LET ME GUESS...</div>
+          <div className="text-left text-4xl lg:text-5xl font-semibold lg:font-bold">LET ME GUESS...</div>
           <br></br>
           <ul className="text-xl text-left list-disc">
             <li>You've always been able to wear all the hats in your business, but lately, you can't seem to shake the feeling that you're falling behind.</li>
@@ -74,6 +74,66 @@ const IndexPageTemplate = ({
           <div className="w-1/3 md:w-1/5 h-8px bg-purple"></div>
           <br></br>
           <PrimaryButton to="/contact" className="mt-6 float-left">
+            GET STARTED
+          </PrimaryButton>
+        </div>
+      </div>
+
+      {/* Services section */}
+      <div className="hidden lg:flex flex min-w-full overflow-hidden bg-purple text-center pb-8 lg:pb-20 pt-8 lg:pt-20 z-10 items-center">
+        <div className="w-4/5 md:w-3/4 mx-auto text-darkGreen">
+          <div className="text-4xl text-left pb-8">THIS IS HOW I CAN HELP...</div>
+          <div class="flex flex-row w-full items-center pb-4">
+            <div className="flex-col float-left mx-auto text-2xl">
+            <StaticImage
+              src="../img/DD_Instagram.png"
+              alt="Instagram"
+              className="flex items-center mx-auto m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={140}
+              height={140}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
+              <p>Social Media Support</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+            </div>
+            <div className="flex-col float-left mx-auto text-2xl">
+            <StaticImage
+              src="../img/DD_Instagram.png"
+              alt="Instagram"
+              className="flex items-center mx-auto m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={140}
+              height={140}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
+            <p>Creative Services</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+            </div>
+            <div className="flex-col float-left mx-auto text-2xl">
+            <StaticImage
+              src="../img/DD_Instagram.png"
+              alt="Instagram"
+              className="flex items-center mx-auto m-2"
+              imgClassName="rounded"
+              layout="fixed"
+              width={140}
+              height={140}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
+            <p>Website Support</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+            </div>
+          </div>
+          <PrimaryButton to="/contact" className="mt-6">
             GET STARTED
           </PrimaryButton>
         </div>
