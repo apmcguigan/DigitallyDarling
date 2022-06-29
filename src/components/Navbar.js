@@ -131,6 +131,7 @@ const Navbar = ({ className }) => {
 
           <div className="flex flex-row w-full md:my-2 items-center px-4">
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
+            <a href="https://www.facebook.com">
             <StaticImage
               src="../img/DD_Facebook.png"
               alt="Facebook"
@@ -143,9 +144,11 @@ const Navbar = ({ className }) => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </a>
             </div>
 
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
+            <a href="https://www.instagram.com">
             <StaticImage
               src="../img/DD_Instagram.png"
               alt="Instagram"
@@ -158,6 +161,7 @@ const Navbar = ({ className }) => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </a>
             </div>
 
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">

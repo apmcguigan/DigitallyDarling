@@ -9,53 +9,35 @@ function ContactPageTemplate({
   office
 }) {
   return (
-    <div>
-      <Header heading={heading} subheading={subheading} />
+    <div className='w-9/12 mx-auto pb-12 text-darkGreen'>
+      <Header />
 
-      <TextImageSplit image={contactform.image}>
-        <SectionHeading>{contactform.heading}</SectionHeading>
-        <p className="mt-6 text-gray-500 text-lg">
-          {contactform.description}
+        <p className="mt-6 text-lg text-center">
+          {contactform.heading}
         </p>
         <form action="#" method="POST">
           <div className="mt-6">
             <div className="grid grid-cols-6 gap-6">
-              <div className="col-span-6 sm:col-span-3">
+              <div className="col-span-6">
                 <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700"
+                  htmlFor="name"
+                  className="block text-sm font-medium"
                 >
-                  First name
+                  Name
                 </label>
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
+                  name="name"
+                  id="name"
                   autoComplete="given-name"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md text-gray-700"
                 />
               </div>
 
-              <div className="col-span-6 sm:col-span-3">
-                <label
-                  htmlFor="last-name"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Last name
-                </label>
-                <input
-                  type="text"
-                  name="last-name"
-                  id="last-name"
-                  autoComplete="family-name"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                />
-              </div>
-
-              <div className="col-span-6 sm:col-span-3">
+              <div className="col-span-6">
                 <label
                   htmlFor="email-address"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium"
                 >
                   Email
                 </label>
@@ -64,26 +46,26 @@ function ContactPageTemplate({
                   name="email-address"
                   id="email-address"
                   autoComplete="email"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md text-gray-700"
                 />
               </div>
 
-              <div className="col-span-6 sm:col-span-3">
+              <div className="col-span-6">
                 <div className="flex justify-between">
                   <label
-                    htmlFor="phone"
-                    className="block text-sm font-medium text-gray-700"
+                    htmlFor="subject"
+                    className="block text-sm font-medium"
                   >
-                    Phone
+                    Subject
                   </label>
-                  <span className="text-gray-500 text-sm">Optional</span>
+                  <span className="text-sm">Optional</span>
                 </div>
                 <input
                   type="text"
-                  name="phone"
-                  id="phone"
+                  name="subject"
+                  id="subject"
                   autoComplete="email"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md text-gray-700"
                 />
               </div>
 
@@ -91,11 +73,11 @@ function ContactPageTemplate({
                 <div className="flex justify-between">
                   <label
                     htmlFor="message"
-                    className="block text-sm font-medium text-gray-700"
+                    className="block text-sm font-medium"
                   >
                     Message
                   </label>
-                  <span className="text-gray-500 text-sm">
+                  <span className="text-sm">
                     Max. 500 characters
                   </span>
                 </div>
@@ -104,7 +86,7 @@ function ContactPageTemplate({
                     id="message"
                     name="message"
                     rows={3}
-                    className="shadow-sm focus:ring-green-500 focus:border-green-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+                    className="shadow-sm focus:ring-green-500 focus:border-green-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md text-gray-700"
                     defaultValue={""}
                   />
                 </div>
@@ -112,33 +94,15 @@ function ContactPageTemplate({
             </div>
           </div>
 
-          <div className="mt-2 py-3 text-right">
+          <div className="mt-2 py-3 text-left">
             <button
               type="submit"
-              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className="`inline-flex items-center justify-center px-8 py-3 text-base font-medium transition-colors duration-100 rounded-md text-white bg-darkGreen hover:bg-highlightGreen"
             >
               Submit
             </button>
           </div>
         </form>
-      </TextImageSplit>
-
-      <TextImageSplit image={office.image} imageLeft={true}>
-        <p className="text-green-700 font-semibold tracking-wide">
-          {office.tagline}
-        </p>
-        <SectionHeading>{office.location}</SectionHeading>
-        <div className="mt-6 sm:flex sm:flex-row text-gray-500">
-          <div
-            className="sm:w-1/2"
-            dangerouslySetInnerHTML={{ __html: office.address.html }}
-          />
-          <div
-            className="mt-6 sm:mt-0 sm:w-1/2"
-            dangerouslySetInnerHTML={{ __html: office.phone.html }}
-          />
-        </div>
-      </TextImageSplit>
     </div>
   )
 }

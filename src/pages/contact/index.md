@@ -4,7 +4,7 @@ title: Contact
 heading: Contact us
 subheading: Visit us in our offices or simply drop us a message
 contactform:
-  heading: Let's work together!
+  heading: If you have any questions or just want to say hello, please fill out the form below!
   description: We'd love to hear from you. Send us a message using the form below,
     or email us.
   image: /img/copernico-p_kicqcom4s-unsplash-1-.jpg
