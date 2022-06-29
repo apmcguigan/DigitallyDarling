@@ -313,16 +313,16 @@ const IndexPageTemplate = ({
 
     {/*Desktop About section */}
     <div className="hidden lg:flex bg-beige flex bg-beige">
-      <div className="w-1/2 pl-16 p-12 mx-auto my-auto">
-        <div className="flex-col mx-auto text-2xl px-6">
+      <div className="w-1/2 xl:pl-16 p-12 mx-auto my-auto">
+        <div className="flex-col mx-auto text-2xl xl:px-6">
             <StaticImage
               src="../img/headshot.jpg"
               alt="Instagram"
-              className="flex items-center mx-auto m-2"
+              className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
               imgClassName="rounded"
               layout="fixed"
-              width={500}
-              height={500}
+              width={450}
+              height={450}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
@@ -330,7 +330,7 @@ const IndexPageTemplate = ({
         </div>
       </div>
 
-      <div className="w-1/2 bg-darkGreen text-black p-12 pt-16 pr-32 pb-40">
+      <div className="w-1/2 bg-darkGreen text-black p-12 pt-32 pr-32 pb-40">
       <h3 className="font-bold text-white text-3xl">Hey there!</h3>
       <br></br>
       <h1 className="font-bold text-white text-5xl">I'm Beth</h1>
@@ -345,16 +345,16 @@ const IndexPageTemplate = ({
     </div>
 
     {/*Mobile About section */}
-    <div className="w-full bg-darkGreen text-black p-8">
-      <div className="flex-col mx-auto text-2xl px-6 pb-8">
+    <div className="lg:hidden w-full bg-darkGreen text-black p-8">
+      <div className="flex-col mx-auto text-2xl xl:px-6 pb-8">
         <StaticImage
           src="../img/headshot.jpg"
           alt="Instagram"
           className="flex items-center mx-auto m-2"
           imgClassName="rounded"
           layout="fixed"
-          width={200}
-          height={200}
+          width={260}
+          height={260}
           loading="eager"
           backgroundColor="transparent"
           placeholder="blurred"
