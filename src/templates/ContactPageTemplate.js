@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from "../components/Header"
 import { TextImageSplit, SectionHeading } from "../components/Sections"
+import { StaticImage } from 'gatsby-plugin-image'
+
 
 function ContactPageTemplate({
   heading,
@@ -10,7 +12,20 @@ function ContactPageTemplate({
 }) {
   return (
     <div className='w-9/12 mx-auto pb-12 text-darkGreen'>
-      <Header />
+      <div className='items-center text-center h-full'>
+      <StaticImage
+              src="../img/DD_Main_Transparent.png"
+              alt="Digitally Darling Logo"
+              className="mx-auto"
+              layout="constrained"
+              width={400}
+              height={200}
+              loading="eager"
+              backgroundColor="transparent"
+              placeholder="blurred"
+            />
+            </div>
+
 
         <p className="mt-6 text-lg text-center">
           {contactform.heading}

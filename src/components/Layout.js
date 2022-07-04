@@ -20,13 +20,7 @@ const Layout = ({ children }) => {
         <meta name="description" content={description} />
       </Helmet>
       <div className="flex flex-col h-40 justify-between">
-        <Navbar
-          className={`transition transform duration-300 ease-in-out ${
-            scrollDirection === "down" || scrollY < 200
-              ? ""
-              : "-translate-y-full"
-          }`}
-        />
+
         {/* Navbar height will be h-12 sm:h-14 md:h-18 */}
         <main className="mb-auto">{children}</main>
         <Footer />

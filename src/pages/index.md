@@ -1,24 +1,23 @@
 ---
 templateKey: index-page
 title: Digitally Darling
-image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
-heading: Virtual Creative Support for business owners & non-profits
-subheading: "subheading"
-subhead1: "FOCUS ON THEIR"
-subhead2: "BASE AND PASSIONS"
-line1: "Virtual Creative Support for"
-line2: "business owners & non-profits"
-about:
-  heading: Who we are
-  description: "testing the text here 12 3 4 5 6"
-  image:
-    image: /img/leon-tho1_oukbg0-unsplash.jpg
-    alt: people working in agency
-  button:
-    url: /about
-    label: Find out more
-part2:
-  heading: Who we are
-  description1: "I help heart-centred entrepreneurs with the creative backend of their business so they can focus on what's most important:"
-  description2: "CLIENT SERVICING, SUSTAINED GROWTH AND THE REASON WHY THEY DO WHAT THEY DO"
+heading: Contact us
+subheading: Visit us in our offices or simply drop us a message
+contactform:
+  heading: If you have any questions or just want to say hello, please fill out the form below!
+  description: We'd love to hear from you. Send us a message using the form below,
+    or email us.
+  image: /img/copernico-p_kicqcom4s-unsplash-1-.jpg
+office:
+  tagline: Our Office
+  location: London Spitalfield
+  address: |-
+    UrbanGarden\
+    143 Fake Street\
+    London
+  phone: |-
+    Email: fake@urbangarden.com\
+    Phone: 01234 567 891\
+    Monday to Friday 9-6pm GMT.
+  image: /img/klaudia-piaskowska-g3lrnieizq4-unsplash.jpg
 ---

@@ -1,105 +1,54 @@
 import React from "react"
 import { graphql } from "gatsby"
 import MyHelmet from "../components/MyHelmet"
+import ContactPageTemplate from "./ContactPageTemplate"
 
-import IndexPageTemplate from "./IndexPageTemplate"
-
-const IndexPage = ({ data }) => {
-  const { frontmatter: fm } = data.markdownRemark
-
-  // featured posts
-  const { edges: posts } = data.allMarkdownRemark
+function ContactPage({ data }) {
+  const fm = data.markdownRemark.frontmatter
 
   return (
     <>
-      <MyHelmet
-        title={fm.title}
-        description={fm.subheading}
-      />
-      <IndexPageTemplate
+      <MyHelmet title={fm.title} description={fm.subheading} />
+      <ContactPageTemplate
         heading={fm.heading}
         subheading={fm.subheading}
-        subhead1={fm.subhead1}
-        subhead2={fm.subhead2}
-        line1={fm.line1}
-        line2={fm.line2}
-        image={fm.image}
-        posts={posts}
-        about={fm.about}
+        contactform={fm.contactform}
+        office={fm.office}
       />
     </>
   )
 }
 
-export default IndexPage
+export default ContactPage
 
-export const indexPageQuery = graphql`
-  query IndexPage($id: String!) {
+export const contactPageQuery = graphql`
+  query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData(width: 1024, placeholder: BLURRED)
-          }
-        }
         heading
         subheading
-        subhead1
-        subhead2
-        line1
-        line2
-        about {
-          description
-          heading
+        office {
+          tagline
+          location
+          address {
+            html
+          }
+          phone {
+            html
+          }
           image {
-            alt
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 1024, placeholder: BLURRED)
-              }
+            childImageSharp {
+              gatsbyImageData(width: 640, placeholder: BLURRED)
             }
           }
-          button {
-            label
-            url
-          }
         }
-      }
-    }
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: {
-        frontmatter: {
-          templateKey: { eq: "project-page" }
-          featured: { eq: true }
-        }
-      }
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-            location
-            featuredimage {
-              alt
-              image {
-                childImageSharp {
-                  gatsbyImageData(
-                    width: 640
-                    placeholder: BLURRED
-                    aspectRatio: 1.5
-                  )
-                }
-              }
+        contactform {
+          heading
+          description
+          image {
+            childImageSharp {
+              gatsbyImageData(width: 640, placeholder: BLURRED)
             }
           }
         }

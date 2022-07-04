@@ -22,7 +22,7 @@ function ContactPage({ data }) {
 export default ContactPage
 
 export const contactPageQuery = graphql`
-  query ContactPage($id: String!) {
+  query ActualContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
