@@ -11,18 +11,6 @@ function IndexPageTemplate({
 }) {
   return (
     <div className='w-9/12 mx-auto pb-12 text-darkGreen'>
-      <StaticImage
-              src="../img/DD_Main_Transparent.png"
-              alt="Digitally Darling Logo"
-              className=""
-              layout="fixed"
-              width={40}
-              height={40}
-              loading="eager"
-              backgroundColor="transparent"
-              placeholder="blurred"
-            />
-
         <p className="mt-6 text-lg text-center">
           {contactform.heading}
         </p>
