@@ -27,7 +27,7 @@ function IndexPageTemplate({
           {contactform.heading}
           <p>TEST245</p>
         </p>
-        <form action="#" method="POST">
+        <form name="contact" action="#" method="POST" data-netlify="true">
           <div className="mt-6">
             <div className="grid grid-cols-6 gap-6">
               <div className="col-span-6">
