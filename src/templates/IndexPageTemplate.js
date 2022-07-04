@@ -330,7 +330,7 @@ const IndexPageTemplate = ({
         </div>
       </div>
 
-      <div className="w-1/2 bg-darkGreen text-black p-12 pt-32 pr-32 pb-40">
+      <div id="about" className="w-1/2 bg-darkGreen text-black p-12 pt-32 pr-32 pb-40">
       <h3 className="font-bold text-white text-3xl">Hey there!</h3>
       <br></br>
       <h1 className="font-bold text-white text-5xl">I'm Beth</h1>
