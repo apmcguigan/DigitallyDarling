@@ -30,7 +30,7 @@ function ContactPageTemplate({
         <p className="mt-6 text-lg text-center">
           {contactform.heading}
         </p>
-        <form action="#" method="POST">
+        <form name="contact" method="POST" data-netlify="true">
           <div className="mt-6">
             <div className="grid grid-cols-6 gap-6">
               <div className="col-span-6">
