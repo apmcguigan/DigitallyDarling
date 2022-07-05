@@ -27,7 +27,7 @@ function ContactPageTemplate({
             </div>
 
 
-        <p className="mt-6 text-lg text-center">
+        <p className="mt-6 text-3xl text-center">
           {contactform.heading}
         </p>
         <form action="#" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -91,7 +91,7 @@ function ContactPageTemplate({
                     htmlFor="message"
                     className="block text-sm font-medium"
                   >
-                    Message
+                    How can I help?
                   </label>
                   <span className="text-sm">
                     Max. 500 characters
