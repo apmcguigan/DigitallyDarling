@@ -5,46 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const Footer = () => {
   return (
     <footer className="bg-purple text-darkGreen py-6">
-          <div className="flex flex-row w-3/4 md:w-1/2 lg:w-1/4 m-auto items-center pb-4">
-          <div className="flex justify-center m-auto">
-                <Link
-                  to="/"
-                  className="flex justify-center mx-2"
-                >
-                  Home
-                </Link>
-                </div>
-
-                <div className="flex justify-center m-auto">
-                <Link
-                  to="/About"
-                  className="flex justify-center mx-2"
-                >
-                  About
-                </Link>
-                </div>
-
-                <div className="flex justify-center m-auto">
-                <Link
-                  to="/Services"
-                  className="flex justify-center mx-4"
-                >
-                  Services
-                </Link>
-                </div>
-
-                <div className="flex justify-center m-auto">
-                <Link
-                  to="/Contact"
-                  className="flex justify-center mx-2"
-                >
-                  Contact
-                </Link>
-                </div>
-
-        </div>
-        
-        <div className="flex flex-row w-1/2 md:w-1/6 lg:w-1/12 md:w-3/4 m-auto items-center">
+        <div className="flex flex-row w-1/2 md:w-1/6 m-auto items-center">
           <div className="flex justify-center m-auto">
             <StaticImage
               src="../img/DD_Facebook.png"
