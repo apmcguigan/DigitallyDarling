@@ -46,6 +46,7 @@ const Footer = () => {
         
         <div className="flex flex-row w-1/2 md:w-1/6 lg:w-1/12 md:w-3/4 m-auto items-center">
           <div className="flex justify-center m-auto">
+            <a href="https://www.facebook.com/digitallydarling">
             <StaticImage
               src="../img/DD_Facebook.png"
               alt="Facebook"
@@ -58,36 +59,41 @@ const Footer = () => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </a>
+          </div>
+
+            <div className="flex justify-center m-auto">
+            <a href="https://www.instagram.com/digitallydarling/">
+              <StaticImage
+                src="../img/DD_Instagram.png"
+                alt="Instagram"
+                className="flex justify-center m-2"
+                imgClassName="rounded"
+                layout="fixed"
+                width={40}
+                height={40}
+                loading="eager"
+                backgroundColor="transparent"
+                placeholder="blurred"
+              />
+              </a>
             </div>
 
             <div className="flex justify-center m-auto">
-            <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
-              className="flex justify-center m-2"
-              imgClassName="rounded"
-              layout="fixed"
-              width={40}
-              height={40}
-              loading="eager"
-              backgroundColor="transparent"
-              placeholder="blurred"
-            />
-            </div>
-
-            <div className="flex justify-center m-auto">
-            <StaticImage
-              src="../img/DD_Email.png"
-              alt="Email"
-              className="flex justify-center m-2"
-              imgClassName="rounded"
-              layout="fixed"
-              width={40}
-              height={40}
-              loading="eager"
-              backgroundColor="transparent"
-              placeholder="blurred"
-            />
+              <a href="mailto:beth@digitallydarling.ca">
+              <StaticImage
+                src="../img/DD_Email.png"
+                alt="Email"
+                className="flex justify-center m-2"
+                imgClassName="rounded"
+                layout="fixed"
+                width={40}
+                height={40}
+                loading="eager"
+                backgroundColor="transparent"
+                placeholder="blurred"
+              />
+              </a>
           </div>
         </div>
 

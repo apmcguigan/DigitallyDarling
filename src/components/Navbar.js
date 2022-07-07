@@ -131,7 +131,7 @@ const Navbar = ({ className }) => {
 
           <div className="flex flex-row w-full md:my-2 items-center px-4">
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
-            <a href="https://www.facebook.com">
+            <a href="https://www.facebook.com/digitallydarling">
             <StaticImage
               src="../img/DD_Facebook.png"
               alt="Facebook"
@@ -148,7 +148,7 @@ const Navbar = ({ className }) => {
             </div>
 
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
-            <a href="https://www.instagram.com">
+            <a href="https://www.instagram.com/digitallydarling">
             <StaticImage
               src="../img/DD_Instagram.png"
               alt="Instagram"
@@ -165,18 +165,20 @@ const Navbar = ({ className }) => {
             </div>
 
             <div className="flex flex-col w-full md:flex-row md:my-2 items-center">
-            <StaticImage
-              src="../img/DD_Email.png"
-              alt="Email"
-              className="w-full h-full sm:w-full sm:h-full m-2"
-              imgClassName="rounded"
-              layout="fixed"
-              width={40}
-              height={40}
-              loading="eager"
-              backgroundColor="transparent"
-              placeholder="blurred"
-            />
+              <a href="mailto:beth@digitallydarling.ca">
+              <StaticImage
+                src="../img/DD_Email.png"
+                alt="Email"
+                className="w-full h-full sm:w-full sm:h-full m-2"
+                imgClassName="rounded"
+                layout="fixed"
+                width={40}
+                height={40}
+                loading="eager"
+                backgroundColor="transparent"
+                placeholder="blurred"
+              />
+              </a>
             </div>
           </div>
         </div>
