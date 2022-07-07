@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/NunitoSans-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Volkorn";
+    src: url("../fonts/Vollkorn-Bold.ttf");
+  }

@@ -22,12 +22,12 @@ const IndexPageTemplate = ({
       {/* Header */}
       <div className="relative min-w-full h-36rem md:h-40rem lg:h-44rem overflow-hidden bg-green text-center pb-8 md:pb-12 lg:pb-20 pt-44 z-10 sm:pt-16 sm:pb-14 md:pt-16 md:pb-16 lg:pt-32 lg:pb-24 items-center">
         <div className="w-4/5 md:w-1/2 mx-auto">
-          <h3 className="font-bold text-beige text-3xl sm:pt-28">{line1}</h3>
-          <h3 className="font-bold text-beige text-3xl py-2">{line2}</h3>
-          <h1 className="mt-2 text-beige text-3xl md:text-6xl md:py-2">
+          <h3 className="font-nunito text-beige text-3xl sm:pt-28">{line1}</h3>
+          <h3 className="font-nunito text-beige text-3xl py-2">{line2}</h3>
+          <h1 className="font-volkorn mt-2 text-beige text-3xl md:text-6xl md:py-2">
             {subhead1}
           </h1>
-          <h1 className="mt-2 text-beige text-3xl md:text-6xl md:py-2 pb-6">
+          <h1 className="font-volkorn mt-2 text-beige text-3xl md:text-6xl md:py-2 pb-6">
             {subhead2}
           </h1>
           <br></br>

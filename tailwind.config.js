@@ -30,7 +30,11 @@ module.exports = {
         '44rem': '44rem',
         '40rem': '40rem',
         '36rem': '36rem'
-      }
+      },
+      fontFamily: {
+        nunito: ["Nunito"],
+        volkorn: ["Volkorn"],
+      },
     },
   },
   variants: {

@@ -101,7 +101,7 @@ const Navbar = ({ className }) => {
               Home
             </ExactNavLink>
             <PartialNavLink
-              to="#about"
+              to="/#about"
               onClick={() => {
                 setMenuOpen(false)
               }}

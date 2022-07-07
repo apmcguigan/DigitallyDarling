@@ -17,7 +17,7 @@ const Footer = () => {
 
                 <div className="flex justify-center m-auto">
                 <Link
-                  to="/About"
+                  to="/#about"
                   className="flex justify-center mx-2"
                 >
                   About
