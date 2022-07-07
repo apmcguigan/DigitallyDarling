@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <footer className="bg-purple text-darkGreen py-6">
         <div className="flex flex-row w-1/2 md:w-1/6 m-auto items-center">
-          <div className="flex justify-center m-auto">
+
+        <div className="flex justify-center m-auto">
+          <a className="flex items-center gap-1" href="https://www.facebook.com/digitallydarling">
             <StaticImage
               src="../img/DD_Facebook.png"
               alt="Facebook"
@@ -19,24 +21,28 @@ const Footer = () => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
+          </a>
+        </div>
+
+            <div className="flex justify-center m-auto">
+              <a className="flex items-center gap-1" href="https://www.instagram.com/digitallydarling/">
+                <StaticImage
+                  src="../img/DD_Instagram.png"
+                  alt="Instagram"
+                  className="flex justify-center m-2"
+                  imgClassName="rounded"
+                  layout="fixed"
+                  width={40}
+                  height={40}
+                  loading="eager"
+                  backgroundColor="transparent"
+                  placeholder="blurred"
+                />
+              </a>
             </div>
 
             <div className="flex justify-center m-auto">
-            <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
-              className="flex justify-center m-2"
-              imgClassName="rounded"
-              layout="fixed"
-              width={40}
-              height={40}
-              loading="eager"
-              backgroundColor="transparent"
-              placeholder="blurred"
-            />
-            </div>
-
-            <div className="flex justify-center m-auto">
+            <a className="flex items-center gap-1" href="mailto:beth@digitallydarling.ca">
             <StaticImage
               src="../img/DD_Email.png"
               alt="Email"
@@ -49,6 +55,7 @@ const Footer = () => {
               backgroundColor="transparent"
               placeholder="blurred"
             />
+            </a>
           </div>
         </div>
 
