@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <div className="flex justify-center m-auto">
                 <Link
-                  to="/Services"
+                  to="/services"
                   className="flex justify-center mx-4"
                 >
                   Services
@@ -35,7 +35,7 @@ const Footer = () => {
 
                 <div className="flex justify-center m-auto">
                 <Link
-                  to="/Contact"
+                  to="/contact"
                   className="flex justify-center mx-2"
                 >
                   Contact
