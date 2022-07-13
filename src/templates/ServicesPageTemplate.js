@@ -81,8 +81,8 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
 
     {/* Mobile Social Media Services*/}
       <div className="flex lg:hidden bg-green flex mx-auto">
-        <div className="w-7/8 p-4 mx-auto my-auto text-center text-beige">
-          <h1 className="text-5xl text-left">SOCIAL MEDIA MANAGEMENT</h1>
+        <div className="w-7/8 px-8 mx-auto my-auto text-center text-beige flex-col">
+          <h1 className="text-5xl pt-8">SOCIAL MEDIA MANAGEMENT</h1>
           <br></br>
           <ul className="text-xl text-left list-disc text-beige">
             <li className="text-purple pt-2"><span className="text-beige">Copywriting for social media content</span></li>
@@ -94,7 +94,7 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
           </ul>
           <br></br>
           <h1 className="text-4xl pb-1 text-left">Networks I Support</h1>
-          <ul className="text-xl text-left list-disc text-beige">
+          <ul className="text-xl text-left list-disc text-beige pb-4">
             <li className="text-purple pt-2"><span className="text-beige">Facebook</span></li>
             <li className="text-purple pt-2"><span className="text-beige">Instagram</span></li>
             <li className="text-purple pt-2"><span className="text-beige">Twitter</span></li>
@@ -103,29 +103,31 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
             <li className="text-purple pt-2"><span className="text-beige">Youtube</span></li>
           </ul>
         </div>
-       <div id="about" className="w-1/2 bg-beige text-darkGreen p-12 pt-32 pb-40 text-center">
-        <div className="w-1/2 px-4 float-left">
-          <h3 className="font-bold text-3xl pb-12">BASIC</h3>
+        </div>
+
+      <div className="flex lg:hidden bg-green flex mx-auto">
+       <div id="about" className="w-full bg-beige text-darkGreen p-12 text-center flex-col">
+        <div className="flex-col text-center">
+          <h3 className="font-bold text-3xl pb-2">BASIC</h3>
           <div className="text-lg">
           <p>8 - 10 social media posts/month</p>
           <p>Initial social media audit</p>
-          <p className="pb-16">Bi-weekly task updates</p>
-          <br></br>
-          <p>Starting at $399</p>
+          <p className="pb-2">Bi-weekly task updates</p>
+          <p className="text-xl">Starting at $399</p>
           </div>
-          <PrimaryButton to="/contact" className="mt-6">
+          <PrimaryButton to="/contact" className="mt-6 mb-16">
             GET STARTED
           </PrimaryButton>
 
         </div>
-        <div className="w-1/2 px-4 float-right text-center">
-          <h3 className="font-bold text-3xl pb-12">PREMIUM</h3>
+        <div className="flex-col text-center">
+          <h3 className="font-bold text-3xl pb-2">PREMIUM</h3>
           <div className="text-lg">
             <p>8 - 10 social media posts/month</p>
             <p>Initial social media audit</p>
             <p>Bi-weekly task updates</p>
-            <p className="pb-16">Quarterly progress reports</p>
-            <p>Starting at $749</p>
+            <p className="pb-2">Quarterly progress reports</p>
+            <p className="text-xl">Starting at $749</p>
             </div>
             <PrimaryButton to="/contact" className="mt-6">
               GET STARTED
