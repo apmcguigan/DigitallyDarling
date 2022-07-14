@@ -15,13 +15,20 @@ const Footer = () => {
                 </Link>
                 </div>
 
-                <div className="flex justify-center m-auto">
+                <div className="flex  justify-center m-auto">
                 <Link
                   to="/#about"
-                  className="flex justify-center mx-2"
+                  className="hidden lg:flex justify-center mx-2"
                 >
                   About
                 </Link>
+
+                <Link
+                  to="/#aboutMe"
+                  className="flex lg:hidden justify-center mx-2"
+                >
+                  About
+              </Link>
                 </div>
 
                 <div className="flex justify-center m-auto">

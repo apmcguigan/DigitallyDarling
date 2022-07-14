@@ -345,7 +345,7 @@ const IndexPageTemplate = ({
     </div>
 
     {/*Mobile About section */}
-    <div className="lg:hidden w-full bg-darkGreen text-black p-8">
+    <div id="aboutMe" className="lg:hidden w-full bg-darkGreen text-black p-8">
       <div className="flex-col mx-auto text-2xl xl:px-6 pb-8">
         <StaticImage
           src="../img/headshot.jpg"
@@ -366,9 +366,11 @@ const IndexPageTemplate = ({
       <br></br>
       <p className="text-white text-xl">My mission is to encourage others to focus on their main base while also supporting them in crossing off tasks so that they can devote their whole attention on their true passions. I'm thrilled you've stopped by Digitally Darling! Let's save you time, show everyone what you have to offer, and get you back to your reason why.</p>
         <br></br>
+        <div className="text-center">
         <SecondaryButton to="/contact" className="mt-6">
           GET STARTED
         </SecondaryButton>
+        </div>
       </div>
   </div>
   )

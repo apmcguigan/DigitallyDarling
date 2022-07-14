@@ -100,6 +100,8 @@ const Navbar = ({ className }) => {
             >
               Home
             </ExactNavLink>
+
+          <span className="hidden lg:flex"> 
             <PartialNavLink
               to="/#about"
               onClick={() => {
@@ -108,6 +110,19 @@ const Navbar = ({ className }) => {
             >
               About
             </PartialNavLink>
+          </span>
+
+            <span className="flex lg:hidden">
+            <PartialNavLink
+              to="/#aboutMe"
+              onClick={() => {
+                setMenuOpen(false)
+              }}
+            >
+              About
+            </PartialNavLink>
+            </span>
+
             <ExactNavLink
               to="/services"
               onClick={() => {
