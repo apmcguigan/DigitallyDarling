@@ -9,12 +9,20 @@ function ContactPageTemplate({
   office
 }) {
   return (
-    <div className='w-9/12 mx-auto pb-12 text-darkGreen'>
-      <Header />
+    <div className='mx-auto pb-12 text-beige'>
+      <div className="relative h-full bg-darkGreen text-center py-12 lg:py-36 items-center">
+        <div className="mx-16 sm:mx-32 md:mx-40 lg:mx-56 mt-6">
+          <h1 className="font-nunito text-left text-beige text-5xl lg:text-7xl pt-28 lg:pt-36">LET'S </h1>
+          <h1 className="font-nunito text-left text-beige text-5xl lg:text-7xl pt-2 ml-6">CONNECT</h1>
+          <div className="w-1/3 md:w-1/5 h-8px bg-purple mx-auto mt-6 ml-12 float-left"></div>
+          <br></br>
+        </div>
+      </div>
 
-        <p className="mt-6 text-lg text-center">
+    <div className='w-8/12 mx-auto text-darkGreen'>
+        <h1 className="mt-12 text-xl text-center">
           {contactform.heading}
-        </p>
+        </h1>
         <form action="#" method="POST">
           <div className="mt-6">
             <div className="grid grid-cols-6 gap-6">
@@ -103,6 +111,7 @@ function ContactPageTemplate({
             </button>
           </div>
         </form>
+      </div>
     </div>
   )
 }

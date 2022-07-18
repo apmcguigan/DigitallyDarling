@@ -51,7 +51,7 @@ const Navbar = ({ className }) => {
     <nav
       className={`fixed top-0 w-full h-34 z-30 py-2 lg:pt-8 lg:pb-6 bg-beige shadow-xl ${className}`}
     >
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto md:flex md:justify-between md:items-center">
+      <div className="mx-6 md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between py-2">
           <Link className="flex items-center gap-1" to="/">
             <StaticImage
