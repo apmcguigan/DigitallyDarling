@@ -44,7 +44,7 @@ function AboutPageTemplate({ heading, subheading, html, team }) {
       <div className="h-full w-4/5 md:w-1/2 mx-auto pt-36">
         <div className="w-1/2 mx-auto float-left">
             <StaticImage
-                src="../img/headshot.jpg"
+                src="../img/BethHeadshot.jpg"
                 alt="tree placeholder"
                 className="flex justify-center m-2"
                 imgClassName="rounded"
@@ -57,15 +57,9 @@ function AboutPageTemplate({ heading, subheading, html, team }) {
               />
           </div>
         </div>
-
-
-
-
-
-
-            <SecondaryButton to="/contact" className="mt-6 lg:mt-10 self-center">
-              WORK WITH ME
-            </SecondaryButton>
+          <SecondaryButton to="/contact" className="mt-6 lg:mt-10 self-center">
+            WORK WITH ME
+          </SecondaryButton>
      </div>
   </div>
 </>

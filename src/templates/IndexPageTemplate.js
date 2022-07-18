@@ -206,49 +206,47 @@ const IndexPageTemplate = ({
           <h1 className="text-3xl lg:text-5xl font-bold pb-2">
             Praise from clients
           </h1>
-            <br></br>
-          <div className="flex flex-row w-full items-center pb-4">
-            <div className="flex-col float-left mx-auto text-2xl px-6">
+
+        <div class="grid grid-cols-2 gap-1 items-center pb-4">
+            <div className="flex-col mx-auto text-2xl px-6">
             <StaticImage
-              src="../img/DD_Instagram.png"
+              src="../img/KatherineMoller.jpg"
               alt="Instagram"
               className="flex items-center mx-auto m-2"
-              imgClassName="rounded"
+              imgClassName="rounded-full"
               layout="fixed"
-              width={200}
-              height={200}
+              width={220}
+              height={220}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
             />
             <div>
-              <p><i>Mauris in aliquam sem fringilla ut. Sed odio morbi quis commodo odio aenean sed adipiscing. </i></p>
               <br></br>
-              <p className="text-xl">Aenean euismod elementum nisi quis. Id cursus metus aliquam eleifend mi in nulla. A cras semper auctor neque vitae tempus quam. Eget arcu dictum varius duis at consectetur lorem donec. Diam quam nulla porttitor massa id. Vestibulum lectus mauris ultrices eros in. Odio aenean sed adipiscing diam. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Ut aliquam purus sit amet luctus venenatis lectus. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices.</p>
+              <p className="text-xl">"Beth has helped me streamline my business in so many ways. She has taken over many of the daily tasks which have left me with more time to think about growing my business. Working with Beth has helped me become more organized and I am now providing my clients with their services on a regular basis without the last-minute panic that I used to experience all of the time!"</p>
               <br></br>
-              <p className="text-xl">Benjamin, Benjamin Interiors</p>
+              <p className="text-xl">KATHERINE MOLLER, AWARD-WINNING EDUCATOR AND FIDDLER</p>
             </div>
           </div>
 
-            <div className="flex-col float-left mx-auto text-2xl px-6">
+            <div className="flex-col mx-auto text-2xl px-6 mt-14">
             <StaticImage
-              src="../img/DD_Instagram.png"
+              src="../img/MeganWilliamson.jpg"
               alt="Instagram"
               className="flex items-center mx-auto m-2"
-              imgClassName="rounded"
+              imgClassName="rounded-full"
               layout="fixed"
-              width={200}
-              height={200}
+              width={220}
+              height={220}
               loading="eager"
               backgroundColor="transparent"
               placeholder="blurred"
             />
             <div>
-            <p><i>Mauris in aliquam sem fringilla ut. Sed odio morbi quis commodo odio aenean sed adipiscing. </i></p>
             <br></br>
-              <p className="text-xl">Aenean euismod elementum nisi quis. Id cursus metus aliquam eleifend mi in nulla. A cras semper auctor neque vitae tempus quam. Eget arcu dictum varius duis at consectetur lorem donec. Diam quam nulla porttitor massa id. Vestibulum lectus mauris ultrices eros in. Odio aenean sed adipiscing diam. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Ut aliquam purus sit amet luctus venenatis lectus.</p>
+              <p className="text-xl">"I love working with Beth because she demonstrates clear communication and has a very quick turnaround in email requests. I can rely on her for support with no hesitation which is a huge relief for me as a small business owner. She is also very knowledgeable in applications and areas that I am still learning, so asking her for advice and direction has been a trade-off of more time for myself to put towards my clients. She helped me to expand my company which will continue to do so."</p>
             <br></br>
-              <p className="text-xl">Benjamin, Benjamin Interiors</p>
+              <p className="text-xl">MEGAN WILLIAMSON, OWNER OF OCEAN REHAB AND FITNESS </p>
             </div>
             </div>
           </div>
@@ -265,10 +263,10 @@ const IndexPageTemplate = ({
             <br></br>
             <div className="flex-col mx-auto text-2xl px-6">
             <StaticImage
-              src="../img/DD_Instagram.png"
+              src="../img/KatherineMoller.jpg"
               alt="Instagram"
               className="flex items-center mx-auto m-2"
-              imgClassName="rounded"
+              imgClassName="rounded-full"
               layout="fixed"
               width={200}
               height={200}
@@ -277,20 +275,19 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <div>
-              <p><i>Mauris in aliquam sem fringilla ut. Sed odio morbi quis commodo odio aenean sed adipiscing. </i></p>
               <br></br>
-              <p className="text-xl">Aenean euismod elementum nisi quis. Id cursus metus aliquam eleifend mi in nulla. A cras semper auctor neque vitae tempus quam. Eget arcu dictum varius duis at consectetur lorem donec. Diam quam nulla porttitor massa id. Vestibulum lectus mauris ultrices eros in. Odio aenean sed adipiscing diam. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Ut aliquam purus sit amet luctus venenatis lectus. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices.</p>
+              <p className="text-xl">"Beth has helped me streamline my business in so many ways. She has taken over many of the daily tasks which have left me with more time to think about growing my business. Working with Beth has helped me become more organized and I am now providing my clients with their services on a regular basis without the last-minute panic that I used to experience all of the time!"</p>
               <br></br>
-              <p className="text-xl">Benjamin, Benjamin Interiors</p>
+              <p className="text-xl">KATHERINE MOLLER, AWARD-WINNING EDUCATOR AND FIDDLER</p>
             </div>
             </div>
 
             <div className="flex-col mx-auto text-2xl pt-12 px-6">
             <StaticImage
-              src="../img/DD_Instagram.png"
+              src="../img/MeganWilliamson.jpg"
               alt="Instagram"
               className="flex items-center mx-auto m-2"
-              imgClassName="rounded"
+              imgClassName="rounded-full"
               layout="fixed"
               width={200}
               height={200}
@@ -299,24 +296,22 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <div>
-            <p><i>Mauris in aliquam sem fringilla ut. Sed odio morbi quis commodo odio aenean sed adipiscing. </i></p>
             <br></br>
-              <p className="text-xl">Aenean euismod elementum nisi quis. Id cursus metus aliquam eleifend mi in nulla. A cras semper auctor neque vitae tempus quam. Eget arcu dictum varius duis at consectetur lorem donec. Diam quam nulla porttitor massa id. Vestibulum lectus mauris ultrices eros in. Odio aenean sed adipiscing diam. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Ut aliquam purus sit amet luctus venenatis lectus.</p>
+              <p className="text-xl">"I love working with Beth because she demonstrates clear communication and has a very quick turnaround in email requests. I can rely on her for support with no hesitation which is a huge relief for me as a small business owner. She is also very knowledgeable in applications and areas that I am still learning, so asking her for advice and direction has been a trade-off of more time for myself to put towards my clients. She helped me to expand my company which will continue to do so."</p>
             <br></br>
-              <p className="text-xl">Benjamin, Benjamin Interiors</p>
+              <p className="text-xl">MEGAN WILLIAMSON, OWNER OF OCEAN REHAB AND FITNESS </p>
             </div>
           </div>
           <br></br>
         </div>
         </div>
 
-
     {/*Desktop About section */}
     <div className="hidden lg:flex bg-beige flex bg-beige">
       <div className="w-1/2 xl:pl-16 p-12 mx-auto my-auto">
         <div className="flex-col mx-auto text-2xl xl:px-6">
             <StaticImage
-              src="../img/headshot.jpg"
+              src="../img/BethHeadshot.jpg"
               alt="Instagram"
               className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
               imgClassName="rounded"
@@ -348,7 +343,7 @@ const IndexPageTemplate = ({
     <div id="aboutMe" className="lg:hidden w-full bg-darkGreen text-black p-8">
       <div className="flex-col mx-auto text-2xl xl:px-6 pb-8">
         <StaticImage
-          src="../img/headshot.jpg"
+          src="../img/BethHeadshot.jpg"
           alt="Instagram"
           className="flex items-center mx-auto m-2"
           imgClassName="rounded"
