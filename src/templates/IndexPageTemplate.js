@@ -33,7 +33,7 @@ const IndexPageTemplate = ({
           <br></br>
           <div className="w-1/3 md:w-1/5 h-8px bg-purple mx-auto"></div>
 
-          <PrimaryButton to="/contact" className="mt-6 lg:mt-10 self-center">
+          <PrimaryButton to="/contact" className="mt-6 lg:mt-10 self-center font-volkorn">
             WORK WITH ME
           </PrimaryButton>
         </div>
@@ -86,8 +86,8 @@ const IndexPageTemplate = ({
           <div className="flex flex-row w-full items-center pb-4">
             <div className="flex-col float-left mx-auto text-2xl px-2">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/bullhorn.png"
+              alt="Social Media Support"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -98,12 +98,12 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
               <p>Social Media Support</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p>Let’s set up a strategy so you can show up consistently and authentically on social media and increase your impact, visibility and engagement.</p>
             </div>
             <div className="flex-col float-left mx-auto text-2xl px-2">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/creativity.png"
+              alt="Creative Services"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -114,12 +114,12 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <p>Creative Services</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p>Whether working with design and editing programs directly, overloaded with other tasks, or simply want beautifully designed graphics and materials that reflect you and your brand, I have the skills you need.</p>
             </div>
             <div className="flex-col float-left mx-auto text-2xl px-2">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/web-design.png"
+              alt="Web Design"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -130,7 +130,7 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <p>Website Support</p>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p>You've always been able to wear all the hats in your business, but lately, you can't seem to shake the feeling that you're falling behind.</p>
             </div>
           </div>
           <PrimaryButton to="/contact" className="mt-6">
@@ -145,8 +145,8 @@ const IndexPageTemplate = ({
           <div className="text-3xl text-left pb-8 text-center font-semibold">THIS IS HOW I CAN HELP</div>
             <div className="flex-col mx-auto text-2xl">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/bullhorn.png"
+              alt="Social Media Support"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -157,13 +157,13 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
               <p className="text-2xl">Social Media Support</p>
-              <p className="text-xl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p className="text-xl">Let’s set up a strategy so you can show up consistently and authentically on social media and increase your impact, visibility and engagement.</p>
             </div>
             <br></br>
             <div className="flex-col mx-auto text-2xl">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/creativity.png"
+              alt="Creative Services"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -174,13 +174,13 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <p className="text-2xl">Creative Services</p>
-              <p className="text-xl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p className="text-xl">Whether working with design and editing programs directly, overloaded with other tasks, or simply want beautifully designed graphics and materials that reflect you and your brand, I have the skills you need.</p>
             </div>
             <br></br>
             <div className="flex-col mx-auto text-2xl">
             <StaticImage
-              src="../img/DD_Instagram.png"
-              alt="Instagram"
+              src="../img/web-design.png"
+              alt="Web Design"
               className="flex items-center mx-auto m-2"
               imgClassName="rounded"
               layout="fixed"
@@ -191,7 +191,7 @@ const IndexPageTemplate = ({
               placeholder="blurred"
             />
             <p className="text-2xl">Website Support</p>
-              <p className="text-xl">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros</p>
+              <p className="text-xl">You've always been able to wear all the hats in your business, but lately, you can't seem to shake the feeling that you're falling behind.</p>
             </div>
             <br></br>
           <PrimaryButton to="/contact" className="mt-6">
@@ -207,7 +207,7 @@ const IndexPageTemplate = ({
             Praise from clients
           </h1>
 
-        <div class="grid grid-cols-2 gap-1 items-center pb-4">
+        <div className="grid grid-cols-2 gap-1 items-center pb-4">
             <div className="flex-col mx-auto text-2xl px-6">
             <StaticImage
               src="../img/KatherineMoller.jpg"

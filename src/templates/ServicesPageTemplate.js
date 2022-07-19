@@ -28,12 +28,12 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
           <h1 className="text-5xl text-left">SOCIAL MEDIA MANAGEMENT</h1>
           <br></br>
           <ul className="text-xl text-left list-disc text-beige">
-            <li className="text-purple pt-2"><span className="text-beige">Copywriting for social media content</span></li>
-            <li className="text-purple pt-2"><span className="text-beige">Branded visuals/graphics creation</span></li>
-            <li className="text-purple pt-2"><span className="text-beige">Social media scheduling</span></li>
-            <li className="text-purple pt-2"><span className="text-beige">Creation and management of a custom content calendar</span></li>
-            <li className="text-purple pt-2"><span className="text-beige">Social media strategy</span></li>
-            <li className="text-purple pt-2"><span className="text-beige">Analyzing results and insights</span></li>
+            <li className="text-purple pt-2 before:content-[?]"><span className="text-beige">→ Copywriting for social media content</span></li>
+            <li className="text-purple pt-2"><span className="text-beige">→ Branded visuals/graphics creation</span></li>
+            <li className="text-purple pt-2"><span className="text-beige">→ Social media scheduling</span></li>
+            <li className="text-purple pt-2"><span className="text-beige">→ Creation and management of a custom content calendar</span></li>
+            <li className="text-purple pt-2"><span className="text-beige">→ Social media strategy</span></li>
+            <li className="text-purple pt-2"><span className="text-beige">→ Analyzing results and insights</span></li>
           </ul>
           <br></br>
           <h1 className="text-4xl pb-1 text-left">Networks I Support</h1>
@@ -166,8 +166,8 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
       <div className="w-1/2 xl:pl-16 p-12 mx-auto my-auto">
         <div className="flex-col ml-auto mr-60 text-2xl xl:px-6">
             <StaticImage
-              src="../img/tree.jpg"
-              alt="Instagram"
+              src="../img/CreativeServices.jpg"
+              alt="Creative Services"
               className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
               imgClassName=""
               layout="fixed"
@@ -188,8 +188,8 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
         <br></br>
         <div className="mx-auto text-2xl">
             <StaticImage
-              src="../img/tree.jpg"
-              alt="Instagram"
+              src="../img/CreativeServices.jpg"
+              alt="Creative Services"
               className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
               imgClassName=""
               layout="fixed"
@@ -220,8 +220,8 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
         <div className="w-1/2 xl:pl-16 p-12 mx-auto my-auto">
           <div className="flex-col mr-auto ml-48 text-2xl xl:px-6">
               <StaticImage
-                src="../img/tree.jpg"
-                alt="Instagram"
+                src="../img/WebsiteSupport.jpg"
+                alt="Website Support"
                 className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
                 imgClassName=""
                 layout="fixed"
@@ -259,9 +259,9 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
         <br></br>
           <div className="mx-auto text-2xl">
               <StaticImage
-                src="../img/tree.jpg"
-                alt="Instagram"
-                className="flex items-center mx-auto m-2 border-8 border-white rounded-3xl"
+                src="../img/WebsiteSupport.jpg"
+                alt="Website Support"
+                className="flex items-center mx-auto m-2 rounded-3xl"
                 imgClassName=""
                 layout="fixed"
                 width={250}
@@ -301,7 +301,7 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
           <br></br>
           <br></br>
 
-          <div class="grid grid-cols-3 gap-1">
+          <div className="grid grid-cols-3 gap-1">
             <div>
               <h2 className="text-3xl">
               DELIGHTFUL
@@ -363,7 +363,7 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
           <br></br>
           <br></br>
 
-          <div class="grid grid-cols-1 gap-1">
+          <div className="grid grid-cols-1 gap-1">
             <div>
               <h2 className="pt-4 pb-2 text-4xl">
               DELIGHTFUL
