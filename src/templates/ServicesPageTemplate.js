@@ -13,7 +13,7 @@ function ServicesPageTemplate({ heading, subheading, html, team }) {
     <div>
     {/* Header */}
     <div className="bg-green">
-      <div className="relative min-w-full h-full lg:h-44rem overflow-hidden bg-green text-center pb-8 lg:pb-12 pt-44 items-center">
+      <div className="relative min-w-full h-full lg:h-44rem overflow-hidden bg-green text-center pb-8 lg:pb-12 items-center">
         <div className="w-4/5 md:w-1/2 mx-auto">
           <h1 className="text-beige text-7xl pt-4 lg:pt-24">{heading}</h1>
           <br></br>
