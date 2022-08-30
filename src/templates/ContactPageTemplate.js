@@ -18,13 +18,13 @@ function ContactPageTemplate({
           <br></br>
         </div>
       </div>
-
+  
     <div className='w-8/12 mx-auto text-darkGreen'>
         <h1 className="mt-12 text-xl text-center">
           {contactform.heading}
         </h1>
         <h1 className="mt-2 text-xl text-center">
-        If you're looking for a FREE 30-minute Discovery Call, click here.
+        If you're looking for a FREE 30-minute Discovery Call, <a href="https://portal.digitallydarling.ca/public/form/view/62ba586cd0569418718a9ed3">click here.</a>
         </h1>
 
       {/*Desktop contacts bar */}
