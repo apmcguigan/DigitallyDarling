@@ -9,5 +9,10 @@
 
   @font-face {
     font-family: "Volkorn";
+    src: url("../fonts/Vollkorn-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Volkorn-Bold";
     src: url("../fonts/Vollkorn-Bold.ttf");
   }

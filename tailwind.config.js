@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         lime: colors.lime,
-        beige: '#FDFAF0', 
+        beige: '#FFFFFD', 
         darkGreen: '#095d40',
         highlightGreen: '#557D70',
         green: '#11a772',
@@ -27,6 +27,7 @@ module.exports = {
       },
       height: {
         '8px': '4px',
+        '360px': '360px !important',
         '44rem': '44rem',
         '40rem': '40rem',
         '36rem': '36rem'
@@ -34,6 +35,7 @@ module.exports = {
       fontFamily: {
         nunito: ["Nunito"],
         volkorn: ["Volkorn"],
+        volkornBold: ["Volkorn-Bold"],
       },
     },
   },

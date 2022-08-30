@@ -57,7 +57,7 @@ function AboutPageTemplate({ heading, subheading, html, team }) {
               />
           </div>
         </div>
-          <SecondaryButton to="/contact" className="mt-6 lg:mt-10 self-center">
+          <SecondaryButton to="https://portal.digitallydarling.ca/public/form/view/62ba586cd0569418718a9ed3" className="mt-6 lg:mt-10 self-center">
             WORK WITH ME
           </SecondaryButton>
      </div>

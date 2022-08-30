@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
-    <footer className="bg-purple text-darkGreen py-6">
+    <footer className="bg-purple text-darkGreen py-6 font-volkorn">
           <div className="flex flex-row w-3/4 md:w-1/2 lg:w-1/3 m-auto items-center pb-4">
           <div className="flex justify-center m-auto">
                 <Link
